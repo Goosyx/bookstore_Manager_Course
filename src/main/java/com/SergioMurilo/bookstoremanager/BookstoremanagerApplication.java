@@ -10,4 +10,5 @@ public class BookstoremanagerApplication {
 		SpringApplication.run(BookstoremanagerApplication.class, args);
 	}
 
+
 }
