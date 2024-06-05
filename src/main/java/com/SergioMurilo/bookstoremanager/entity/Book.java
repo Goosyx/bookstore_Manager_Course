@@ -18,6 +18,7 @@ public class Book {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     @Column(nullable = false, unique = true)
     private String name;
 
@@ -25,7 +26,7 @@ public class Book {
     private Integer pages;
 
     @Column(nullable = false)
-    private Integer Chapters;
+    private Integer chapters;
 
     @Column(nullable = false)
     private String isbn;
